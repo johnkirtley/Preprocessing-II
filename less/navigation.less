@@ -1,1 +1,35 @@
 // Navigation Styles here
+
+
+.nav {
+    .flex();
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0;
+    border-bottom: 2px dashed @navigation-border;
+
+    h1 {
+        margin-right: auto;
+    }
+
+
+    nav {
+        .flex();
+        justify-content: center;
+        align-items: center;
+        padding-right: 3%;
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 0 6%;
+            font-size: 1.5rem;
+
+
+        }
+
+        a:hover {
+            .hover();
+        }
+    }
+}
